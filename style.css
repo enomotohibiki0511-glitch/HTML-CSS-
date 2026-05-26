@@ -13,7 +13,7 @@
 
 .HeaderContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   margin-top: 0;
   margin-right: 36px;
   margin-bottom: 0;
