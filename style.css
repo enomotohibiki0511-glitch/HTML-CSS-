@@ -264,7 +264,6 @@ a {
 
 .FirstView {
   position: relative;
-  display: 
   height: 739px;
 }
 
@@ -272,37 +271,33 @@ img.lazy {
   min-height: 1px;
 }
 
-.FirstView__bg-image--left-rectangle lazy entered loaded {
-  top: -70px;
-  left: 0;
-  position: absolute;
-  z-index: -1;
-}
-
 .FirstView__bg-image {
   position: absolute;
   z-index: -1;
 }
 
-.FirstView__bg-image--right-rectangle lazy entered loaded {
-  right: 0;
-  bottom: -70px;
-  position: absolute;
-  z-index: -1;
+.FirstView__bg-image--left-rectangle {
+  top: -70px;
+  left: 0;
 }
 
-.FirstView__bg-image--fill-rectangle lazy entered loaded {
+.FirstView__bg-image--right-rectangle {
+  right: 0;
+  bottom: -70px;
+}
+
+.FirstView__bg-image--fill-rectangle {
   top: 84px;
   left: -70px;
 }
 
-.FirstView__bg-image--main-visual lazy entered loaded {
+.FirstView__bg-image--main-visual {
   top: -70px;
   right: 0;
   width: 775px;
 }
 
-.FirstView__whole-image lazy {
+.FirstView__whole-image {
   display: none;
 }
   
