@@ -260,49 +260,49 @@ a {
   background-color: rgba(247, 146, 20, 0.5);
 }
 
-/* LP本体の部分　＊/
+/* 本体の部分　＊/
 
 .FirstView {
   position: relative;
   height: 739px;
 }
 
-.FirstView__bg--image {
+.FirstView__bg-image {
   position: absolute;
   z-index: -1;
 }
 
-.FirstView__bg--image--left {
+.FirstView__bg-image--left-rectangle {
   top: -70px;
   left: 0;
 }
 
-.FirstView__bg--image {
+.FirstView__bg-image {
   position: absolute;
   z-index: -1;
 }
 
-.FirstView__bg--image--right rectangle {
+.FirstView__bg-image--right rectangle {
   right: 0;
   bottom: -70px;
 }
 
-.FirstView__bg--image {
+.FirstView__bg-image {
   position: absolute;
   z-index: -1;
 }
 
-.FirstView__bg--image--fill rectangle {
+.FirstView__bg-image--fill rectangle {
   top: 84px;
   left: -70px;
 }
 
-.FirstView__bg--image {
+.FirstView__bg-image {
   position: absolute;
   z-index: -1;
 }
 
-.FirstView__bg--image--main--visual {
+.FirstView__bg-image--main--visual {
   top: -70px;
   right: 0;
   width: 775px;
