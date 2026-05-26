@@ -300,11 +300,11 @@ a {
 }
   
 .FirstView__container {
-  max-width: 1040px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  padding-top: 219px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .FirstViewContent {
