@@ -71,6 +71,18 @@ img {
   vertical-align: middle;
 }
 
+@media screen and (max-width: 1080px) {
+    .Header {
+        cursor: pointer;
+        display: block;
+        position: relative;
+        width: 24px;
+        height: 17px;
+        margin: auto;
+        z-index: 100;
+    }
+}
+
 .HeaderMenuList {
   align-items: center;
   display: flex;
