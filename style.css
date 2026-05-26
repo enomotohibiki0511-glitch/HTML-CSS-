@@ -301,8 +301,8 @@ a {
   
 .FirstView__container {
   position: absolute;
-  top: 120px;
-  left: 40px;
+  top: 500px;
+  left: 80px;
   width: 100%;
   z-index: 10;
 }
