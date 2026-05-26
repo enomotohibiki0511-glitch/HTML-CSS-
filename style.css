@@ -260,45 +260,43 @@ a {
   background-color: rgba(247, 146, 20, 0.5);
 }
 
-/* 本体の部分　＊/
-
 .FirstView {
   position: relative;
   height: 739px;
-}
-
-img.lazy {
-  min-height: 1px;
+  overflow: hidden;
 }
 
 .FirstView__bg-image {
   position: absolute;
-  z-index: -1;
 }
 
-.FirstView__bg-image--left-rectangle {
+/* 左上 */
+.FirstView__bg-image--left-rectangle{
   top: -70px;
   left: 0;
+  z-index: 1;
 }
 
-.FirstView__bg-image--right-rectangle {
+/* 右下 */
+.FirstView__bg-image--right-rectangle{
   right: 0;
   bottom: -70px;
+  z-index: 1;
 }
 
-.FirstView__bg-image--fill-rectangle {
+/* 円 */
+.FirstView__bg-image--fill-rectangle{
   top: 84px;
   left: -70px;
+  z-index: 2;
 }
 
-.FirstView__bg-image--main-visual {
+/* メイン画像 */
+.FirstView__bg-image--main-visual{
   top: -70px;
   right: 0;
   width: 775px;
-}
-
-.FirstView__whole-image {
-  display: none;
+  z-index: 3;
 }
   
 .FirstView__container {
