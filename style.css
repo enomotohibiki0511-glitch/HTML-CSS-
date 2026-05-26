@@ -82,6 +82,7 @@ ul {
 
 .HeaderMenuListItem {
   margin-right: 45px;
+  justify-content: center
 }
 
 li {
@@ -95,6 +96,10 @@ li {
 
 a {
   text-decoration: none;
+}
+
+a {
+  color: #000000
 }
 
 @media screen and (min width: 768px) 
