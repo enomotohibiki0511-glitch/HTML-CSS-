@@ -286,30 +286,15 @@ img.lazy {
   bottom: -70px;
 }
 
-.FirstView__bg-image {
-  position: absolute;
-  z-index: -1;
-}
-
 .FirstView__bg-image--fill-rectangle lazy entered loaded {
   top: 84px;
   left: -70px;
-}
-
-.FirstView__bg-image {
-  position: absolute;
-  z-index: -1;
 }
 
 .FirstView__bg-image--main-visual lazy entered loaded {
   top: -70px;
   right: 0;
   width: 775px;
-}
-
-.FirstView__bg-image {
-  position: absolute;
-  z-index: -1;
 }
 
 .FirstView__whole-image lazy {
