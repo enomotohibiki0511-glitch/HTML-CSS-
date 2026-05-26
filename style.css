@@ -106,6 +106,10 @@ a {
   background-color: rgba(247, 146, 20, 0.5)
 }
 
+.space {
+  flex; 1;
+}
+
 .FirstView {
   position: relative;
   height: 739px;
