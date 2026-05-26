@@ -1,5 +1,8 @@
 .HEADER {
-  width: 100%;
+  background-color: #FFFFFF;
+  display: grid;
+  height: 70px;
+  width: 100%
 }
 
 @media screen and (max-width: 1080px) 
@@ -16,6 +19,7 @@
   margin-bottom: 0;
   margin-left: 36px;
   max-width: 100%
+  position: relative;
 }
 
 .HEADERLogo {
