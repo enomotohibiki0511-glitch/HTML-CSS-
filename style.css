@@ -33,13 +33,16 @@ div {
   align-self: center;
 }
 
-
 a {
   color: #000000
   text-decoration-line: none;
   text-decoration-thickness: initial;
   text-decoration-style: initial;
   text-decoration-color: initial;
+}
+
+.HeadContainer>*:last-child {
+  display: inline-flex;
 }
 
 .HeaderLogo__image--pc {
@@ -67,6 +70,7 @@ img {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  text-align: center;
 }
 
 ul {
