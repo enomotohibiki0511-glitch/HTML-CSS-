@@ -270,7 +270,7 @@ a {
   z-index: -1;
 }
 
-.FirstView__bg--image--left rectangle lazy entered loaded {
+.FirstView__bg--image--left {
   top: -70px
   left: 0
 }
@@ -280,7 +280,7 @@ a {
   z-index: -1;
 }
 
-.FirstView__bg--image--right rectangle lazy entered loaded {
+.FirstView__bg--image--right rectangle {
   right: 0
   bottom: -70px
 }
@@ -290,7 +290,7 @@ a {
   z-index: -1;
 }
 
-.FirstView__bg--image--fill rectangle lazy entered loaded {
+.FirstView__bg--image--fill rectangle {
   top: 84px;
   left: -70px
 }
@@ -300,7 +300,7 @@ a {
   z-index: -1;
 }
 
-.FirstView__bg--image--main--visual lazy entered loaded {
+.FirstView__bg--image--main--visual {
   top: -70px;
   right: 0;
   width: 775px;
