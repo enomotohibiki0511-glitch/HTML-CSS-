@@ -267,9 +267,8 @@ a {
   height: 739px;
 }
 
-.FirstView__bg-image {
-  position: absolute;
-  z-index: -1;
+img.lazy {
+  min-height: 1px;
 }
 
 .FirstView__bg-image--left-rectangle lazy entered loaded {
@@ -306,6 +305,11 @@ a {
   top: -70px;
   right: 0;
   width: 775px;
+}
+
+.FirstView__bg-image {
+  position: absolute;
+  z-index: -1;
 }
 
 .FirstView__whole-image lazy {
