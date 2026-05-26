@@ -270,7 +270,7 @@ a {
   position: absolute;
 }
 
-/* 左上 */
+/* 左上 この辺について、手本のHTMLではlazy以下もセレクタに含まれていたが、なぜかそれをコピペするとレイアウトが崩れた　*/
 .FirstView__bg-image--left-rectangle{
   top: -70px;
   left: 0;
@@ -326,7 +326,7 @@ div {
   margin-bottom: 16px;
 }
 
-.FirstViewContent__badge-image lazy entered loaded {
+.FirstViewContent__badge-image {
   position: absolute;
   top: -105px;
   right: -150px;
