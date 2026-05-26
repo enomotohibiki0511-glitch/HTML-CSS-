@@ -305,6 +305,7 @@ a {
   margin-right: auto;
   position: relative;
   padding-top: 219px;
+  z-index: 5;
 }
 
 .FirstViewContent {
