@@ -90,7 +90,7 @@ ul {
 
 .HeaderMenuListItem {
   margin-right: 45px;
-  justify-content: center
+  justify-content: center;
 }
 
 li {
@@ -107,7 +107,7 @@ a {
 }
 
 a {
-  color: #000000
+  color: #000000;
 }
 
 @media screen and (min width: 768px) 
@@ -257,7 +257,7 @@ a {
 }
 
 .HeaderMenuListItem__button:hover {
-  background-color: rgba(247, 146, 20, 0.5)
+  background-color: rgba(247, 146, 20, 0.5);
 }
 
 .FirstView {
@@ -271,8 +271,8 @@ a {
 }
 
 .FirstView__bg--image--left {
-  top: -70px
-  left: 0
+  top: -70px;
+  left: 0;
 }
 
 .FirstView__bg--image {
@@ -281,8 +281,8 @@ a {
 }
 
 .FirstView__bg--image--right rectangle {
-  right: 0
-  bottom: -70px
+  right: 0;
+  bottom: -70px;
 }
 
 .FirstView__bg--image {
@@ -292,7 +292,7 @@ a {
 
 .FirstView__bg--image--fill rectangle {
   top: 84px;
-  left: -70px
+  left: -70px;
 }
 
 .FirstView__bg--image {
@@ -362,7 +362,7 @@ div {
   margin-bottom: 16px;
 
 .FirstViewConten__button:hover {
-  background-color: rgba(247, 146, 20, 0.5)
+  background-color: rgba(247, 146, 20, 0.5);
 }
 
 .FirstViewConten__caption {
