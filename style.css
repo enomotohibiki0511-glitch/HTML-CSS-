@@ -260,16 +260,17 @@ a {
   background-color: rgba(247, 146, 20, 0.5);
 }
 
-.FirstView {
+.FirstView{
   position: relative;
   height: 739px;
+  overflow: hidden;
 }
 
-.FirstView__bg-image {
+.FirstView__bg-image{
   position: absolute;
 }
 
-/* 左上 この辺について、手本のHTMLではlazy以下もセレクタに含まれていたが、なぜかそれをコピペするとレイアウトが崩れた　*/
+/* 左上 */
 .FirstView__bg-image--left-rectangle{
   top: -70px;
   left: 0;
