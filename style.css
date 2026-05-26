@@ -26,6 +26,15 @@
   position: relative;
 }
 
+div {
+  margin: 0;
+}
+
+a {
+  color: #FFFFFF
+  text-decoration: none;
+}
+
 .HEADERLogo {
   align-items: center;
   display: block;
