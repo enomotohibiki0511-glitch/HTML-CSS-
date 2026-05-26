@@ -118,11 +118,6 @@ a {
   left: 0
 }
 
-img {
-  margin: 0;
-  padding: 0;
-}
-
 .FirstView__bg--image {
   position: absolute;
   z-index: -1;
@@ -189,11 +184,6 @@ div {
   position: absolute;
   top: -105px;
   right: -150px;
-}
-
-img {
-  margin: 0;
-  padding: 0;
 }
 
 .FirstViewConten__button {
