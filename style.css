@@ -302,7 +302,7 @@ a {
   max-width: 1040px;
   margin-left: auto;
   margin-right: auto;
-  position: absolute;
+  position: relative;
   z-index: 5;
 }
 
