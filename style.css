@@ -2,3 +2,30 @@
   width: 100%;
 }
 
+@media screen and (max-width: 1080px) 
+  .HEADER {
+  position: fixed;
+}
+
+.HEADERContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-right: 36px;
+  margin-bottom: 0;
+  margin-left: 36px;
+  max-width: 100%
+  position: relative;
+}
+
+.HEADERLogo {
+  align-items: center;
+}
+
+.HEADERMenu {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  
