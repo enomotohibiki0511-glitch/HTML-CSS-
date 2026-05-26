@@ -272,7 +272,7 @@ a {
   z-index: -1;
 }
 
-.FirstView__bg-image--left-rectangle {
+.FirstView__bg-image--left-rectangle lazy entered loaded {
   top: -70px;
   left: 0;
 }
@@ -282,7 +282,7 @@ a {
   z-index: -1;
 }
 
-.FirstView__bg-image--right rectangle {
+.FirstView__bg-image--right-rectangle lazy entered loaded {
   right: 0;
   bottom: -70px;
 }
@@ -292,7 +292,7 @@ a {
   z-index: -1;
 }
 
-.FirstView__bg-image--fill rectangle {
+.FirstView__bg-image--fill-rectangle lazy entered loaded {
   top: 84px;
   left: -70px;
 }
@@ -302,13 +302,13 @@ a {
   z-index: -1;
 }
 
-.FirstView__bg-image--main--visual {
+.FirstView__bg-image--main-visual lazy entered loaded {
   top: -70px;
   right: 0;
   width: 775px;
 }
 
-.FirstView__whole-image-lazy {
+.FirstView__whole-image lazy {
   display: none;
 }
   
@@ -345,7 +345,7 @@ div {
   right: -150px;
 }
 
-.FirstViewConten__button {
+.FirstViewContent__button {
   align-items: center;
   background-color: #F79214;
   border: none;
@@ -363,11 +363,11 @@ div {
   width: 100%;
   margin-bottom: 16px;
 
-.FirstViewConten__button:hover {
+.FirstViewContent__button:hover {
   background-color: rgba(247, 146, 20, 0.5);
 }
 
-.FirstViewConten__caption {
+.FirstViewContent__caption {
   font-size: 12px;
   line-height: 16px;
 }
