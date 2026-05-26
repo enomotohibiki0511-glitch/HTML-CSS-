@@ -47,10 +47,6 @@ img {
   width: auto;
 }
 
-.space {
-  flex; 1;
-}
-
 .HeaderMenu {
   display: inline-flex;
 }
