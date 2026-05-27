@@ -145,13 +145,13 @@ img {
         position: relative;
         width: 24px;
         height: 17px;
-        margin: auto;
+        margin: 0;
         z-index: 100;
     }
 }
 
 @media screen and (max-width: 1080px) {
-    .HeaderMenuHamburger__line: first-child {
+    .HeaderMenuHamburger__line:first-child {
         top: 0;
     }
 }
@@ -171,7 +171,7 @@ img {
 }
 
 @media screen and (max-width: 1080px) {
-    .HeaderMenuHamburger__line: last-child {
+    .HeaderMenuHamburger__line:last-child {
         top: 100%;
     }
 }
@@ -240,7 +240,7 @@ li {
 }
 
 @media screen and (max-width: 1080px) {
-    .HeaderNavListItem__link>span:first-child {
+    .HeaderMenuListItem__link>span:first-child {
         font-size: 16px;
         letter-spacing: 5px;
         color: #fff;
@@ -248,7 +248,7 @@ li {
 }
 
 @media screen and (max-width: 1080px) {
-    .HeaderNavListItem__link>span:last-child {
+    .HeaderMenuListItem__link>span:last-child {
         font-size: 12px;
         margin-top: 10px;
         color: #F79214;
@@ -340,8 +340,17 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-    .FirstView__bg-image {
+    .FirstView__bg-image--left rectangle,
+    .FirstView__bg-image--right rectangle,
+    .FirstView__bg-image--fill rectangle {
         display: none;
+    }
+
+    .FirstView__bg-image--main-visual {
+      display: block;
+      position: relative;
+      top: 0;
+      width: 100%;
     }
 }
 
@@ -402,11 +411,11 @@ img {
 
 @media screen and (max-width: 767px) {
     .FirstView__container {
-        padding-top: 0;
-        padding-bottom: 20px;
-        max-width: none;
-        padding-left: 16px;
-        padding-right: 16px;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: auto;
+        padding: 20px 16px;
     }
 }
 
