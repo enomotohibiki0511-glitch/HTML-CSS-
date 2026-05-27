@@ -131,6 +131,11 @@ img {
     }
 }
 
+.HeaderMenu {
+  display: flex;
+  align-items: center;
+}
+
 @media screen and (max-width: 414px) {
     .HeaderMenuList {
         top: 48px;
@@ -138,7 +143,7 @@ img {
 }
 
 .HeaderMenuList {
-  align-self: center;
+  align-items: center;
   display: flex;
   justify-content: space-between;
   text-align: center;
