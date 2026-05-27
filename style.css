@@ -111,6 +111,29 @@ img {
   align-items: center;
 }
 
+@media screen and (max-width: 414px) {
+    .HeaderMenuList {
+        top: 48px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .HeaderNavList {
+        overflow-y: scroll;
+        position: fixed;
+        left: 100%;
+        width: 100%;
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 75px;
+        transition: transform 0.5s;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, 0.8);
+        -webkit-overflow-scrolling: touch;
+        height: 100%;
+    }
+}
+
 .HeaderMenuList {
   align-items: center;
   display: flex;
@@ -124,6 +147,12 @@ ul {
   padding: 0;
 }
 
+@media screen and (max-width: 1080px) {
+    .HeaderMenuListItem {
+        margin-right: 0;
+    }
+}
+
 .HeaderMenuListItem {
   margin-right: 45px;
 }
@@ -131,6 +160,18 @@ ul {
 li {
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    .HeaderMenuListItem:last-of-type {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .HeaderMenuListItem__link {
+        padding: 20px 0;
+    }
 }
 
 .HeaderMenuListItem__link {
@@ -161,6 +202,15 @@ a {
 @media screen and (min width: 768px) 
 .HeaderMenuListItem__button {
   transition: opacity 0.2s;
+}
+
+@media screen and (max-width: 1080px) {
+    .HeaderMenuListItem__button {
+        font-size: 16px;
+        margin: 0 auto;
+        height: 60px;
+        width: 250px;
+    }
 }
 
 .HeaderMenuListItem__button {
