@@ -156,7 +156,6 @@ img {
     .HeaderMenuHamburger {
         cursor: pointer;
         display: block;
-        position: relative;
         width: 24px;
         height: 17px;
         margin: 0;
