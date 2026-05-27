@@ -114,7 +114,7 @@ img {
 }
 
 @media screen and (max-width: 1080px) {
-    .HeaderNavHamburger {
+    .HeaderMenuHamburger {
         cursor: pointer;
         display: block;
         position: relative;
