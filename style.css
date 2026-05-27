@@ -193,7 +193,7 @@ a {
 
 .HeaderMenuListItem:last-of-type {
   margin-right: 0;
-  justify-content center;
+  justify-content: center;
 }
 
 .HeaderMenuListItem__button:visited {
