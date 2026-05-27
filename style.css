@@ -6,13 +6,20 @@ body {
 /* ヘッダー部分　*/
 /* ヘッダー基礎　*/
 
+@media screen and (max-width: 414px) {
+    .Header {
+        height: 48px;
+        padding: 0;
+    }
+}
+
 .Header {
   width: 100%;
 }
 
 @media screen and (max-width: 1080px) {
     .Header--common {
-        position: fixed;
+        position: fixed !important;
     }
 }
 
