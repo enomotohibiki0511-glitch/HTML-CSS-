@@ -155,6 +155,13 @@ img {
 }
 
 @media screen and (max-width: 1080px) {
+    .HeaderMenuHamburger__line: second-child {
+        top: 50%;
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
     .HeaderMenuHamburger__line {
         position: absolute;
         display: block; 
