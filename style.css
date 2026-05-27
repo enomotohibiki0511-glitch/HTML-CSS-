@@ -3,6 +3,9 @@ body {
   padding: 0;
 }
 
+/* ヘッダー部分　*/
+/* ヘッダー基礎　*/
+
 .Header {
   width: 100%;
 }
@@ -35,6 +38,8 @@ body {
 div {
   padding: 0;
 }
+
+/* ヘッダーロゴ　*/
 
 @media screen and (min width: 768px)
 .HeaderLogo {
@@ -90,6 +95,8 @@ img {
   vertical-align: middle;
 }
 
+/* ヘッダーのメニュー部分　*/
+
 @media screen and (max-width: 414px) {
     .HeaderMenuHamburger {
         height: 12px;
@@ -122,7 +129,7 @@ img {
 }
 
 @media screen and (max-width: 414px) {
-    .HeaderNavList {
+    .HeaderMenuList {
         top: 48px;
     }
 }
@@ -173,15 +180,11 @@ a {
 }
 
 @media screen and (max-width: 1080px) {
-    .HeaderNavListItem {
+    .HeaderMenuListItem {
         margin-right: 0;
     }
 }
 
-.HeaderMenuListItem {
-  margin-right: 45px;
-}
-
 li {
   margin: 0;
   padding: 0;
@@ -189,99 +192,6 @@ li {
 
 .HeaderMenuListItem__link {
   display: block;
-}
-
-a {
-  text-decoration: none;
-}
-
-@media screen and (min width: 768px) 
-.HeaderMenuListItem {
-  transition: opacity 0.2s;
-}
-
-.HeaderMenuListItem {
-  margin-right: 45px;
-}
-
-li {
-  margin: 0;
-  padding: 0;
-}
-
-.HeaderMenuListItem__link {
-  display: block;
-}
-
-a {
-  text-decoration: none;
-}
-
-@media screen and (min width: 768px) 
-.HeaderMenuListItem {
-  transition: opacity 0.2s;
-}
-
-.HeaderMenuListItem {
-  margin-right: 45px;
-}
-
-li {
-  margin: 0;
-  padding: 0;
-}
-
-.HeaderMenuListItem__link {
-  display: block;
-}
-
-a {
-  text-decoration: none;
-}
-
-@media screen and (min width: 768px) 
-.HeaderMenuListItem {
-  transition: opacity 0.2s;
-}
-
-.HeaderMenuListItem {
-  margin-right: 45px;
-}
-
-li {
-  margin: 0;
-  padding: 0;
-}
-
-.HeaderMenuListItem__link {
-  display: block;
-}
-
-a {
-  text-decoration: none;
-}
-
-@media screen and (min width: 768px) 
-.HeaderMenuListItem {
-  transition: opacity 0.2s;
-}
-
-.HeaderMenuListItem {
-  margin-right: 45px;
-}
-
-li {
-  margin: 0;
-  padding: 0;
-}
-
-.HeaderMenuListItem__link {
-  display: block;
-}
-
-a {
-  color: #000000
-  text-decoration: none;
 }
 
 .HeaderMenuListItem:last-of-type {
