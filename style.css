@@ -17,6 +17,13 @@ body {
   height: 70px;
 }
 
+@media screen and (max-width: 767px) {
+    .HeaderContainer {
+        max-width: 100%;
+        margin: 0 16px;
+    }
+}
+
 .HeaderContainer {
   display: flex;
   justify-content: space-between;
@@ -50,6 +57,12 @@ a {
   display: inline-flex;
 }
 
+@media screen and (max-width: 767px) {
+    .HeaderLogo__image--pc {
+        display: none;
+    }
+}
+
 .HeaderLogo__image--pc {
   display: block;
   height: 20px;
@@ -58,6 +71,12 @@ a {
 
 img. lazy {
   min-height: 1px;
+}
+
+@media screen and (max-width: 767px) {
+    .HeaderLogo__image--sp {
+        display: block !important;
+    }
 }
 
 .HeaderLogo__image--sp {
@@ -69,6 +88,13 @@ img. lazy {
 img {
   border: 0;
   vertical-align: middle;
+}
+
+@media screen and (max-width: 414px) {
+    .HeaderNavHamburger {
+        height: 12px;
+        width: 18px;
+    }
 }
 
 @media screen and (max-width: 1080px) {
