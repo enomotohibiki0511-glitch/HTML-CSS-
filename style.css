@@ -169,7 +169,7 @@ img {
 }
 
 @media screen and (max-width: 1080px) {
-    .HeaderNavHamburger__line:last-child {
+    .HeaderMenuHamburger__line:last-child {
         top: 100%;
     }
 }
