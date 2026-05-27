@@ -91,9 +91,15 @@ img {
 }
 
 @media screen and (max-width: 414px) {
-    .HeaderNavHamburger {
+    .HeaderMenuHamburger {
         height: 12px;
         width: 18px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .HeaderMenuHamburger__line:first-child {
+        top: 0;
     }
 }
 
@@ -106,6 +112,18 @@ img {
         height: 17px;
         margin: auto;
         z-index: 100;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .HeaderMenuHamburger__line:last-child {
+        top: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .HeaderNavList {
+        top: 48px;
     }
 }
 
@@ -152,6 +170,12 @@ a {
 @media screen and (min width: 768px) 
 .HeaderMenuListItem {
   transition: opacity 0.2s;
+}
+
+@media screen and (max-width: 1080px) {
+    .HeaderNavListItem {
+        margin-right: 0;
+    }
 }
 
 .HeaderMenuListItem {
