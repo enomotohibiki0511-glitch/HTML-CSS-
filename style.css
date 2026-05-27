@@ -125,7 +125,7 @@ img {
 }
 
 @media screen and (max-width: 1080px) {
-    .HeaderNavList {
+    .HeaderMenuList {
         overflow-y: scroll;
         position: fixed;
         left: 100%;
@@ -254,8 +254,20 @@ a {
   overflow: hidden;
 }
 
-.FirstView__bg-image{
+@media screen and (max-width: 767px) {
+    .FirstView {
+        height: fit-content;
+    }
+}
+
+.FirstView__bg-image {
   position: absolute;
+}
+
+@media screen and (max-width: 767px) {
+    .FirstView__bg-image {
+        display: none;
+    }
 }
 
 /* 左上 */
@@ -296,6 +308,14 @@ img {
   width: 775px;
   z-index: 3;
 }
+
+@media screen and (max-width: 767px) {
+    .FirstView__whole-image {
+        display: block;
+        margin-bottom: 7px;
+        width: 100%;
+    }
+}
   
 .FirstView__container {
   position: absolute;
@@ -303,6 +323,16 @@ img {
   left: 240px;
   width: 100%;
   z-index: 10;
+}
+
+@media screen and (max-width: 767px) {
+    .FirstView__container {
+        padding-top: 0;
+        padding-bottom: 20px;
+        max-width: none;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
 
 .FirstViewContent {
@@ -319,14 +349,38 @@ img {
     margin-bottom: 16px;
 }
 
+@media screen and (max-width: 767px) {
+    .FirstViewContent__title {
+        font-size: 22px;
+        line-height: 36px;
+        position: relative;
+        width: fit-content;
+    }
+}
+
 .FirstViewContent__badge-image {
     position: absolute;
     top: -105px;
     right: -150px;
 }
 
+@media screen and (max-width: 767px) {
+    .FirstViewContent__badge-image {
+        height: 102px;
+        width: 102px;
+        top: -20px;
+        right: -110px;
+    }
+}
+
 .FirstViewContent__button:visited {
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    .FirstViewContent__button {
+        width: 100% !important;
+    }
 }
 
 @media screen and (min-width: 768px) {
