@@ -155,13 +155,6 @@ img {
         top: 0;
     }
 }
-
-@media screen and (max-width: 1080px) {
-    .HeaderMenuHamburger__line: second-child {
-        top: 50%;
-    }
-}
-
 @media screen and (max-width: 1080px) {
     .HeaderMenuHamburger__line:last-child {
         top: 100%;
