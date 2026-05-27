@@ -143,6 +143,8 @@ img {
         cursor: pointer;
         display: block;
         position: relative;
+        width: 24px;
+        height: 17px;
         margin: auto;
         z-index: 100;
     }
@@ -160,6 +162,11 @@ img {
     }
 }
 
+@media screen and (max-width: 1080px) {
+    .HeaderMenuHamburger__line:last-child {
+        top: 100%;
+    }
+}
 
 @media screen and (max-width: 1080px) {
     .HeaderMenuHamburger__line {
@@ -171,12 +178,6 @@ img {
         transform: translate(0, -50%);
         border-radius: 10px;
         transition: top 0.2s, transform 0.2s, opacity 0.3s;
-    }
-}
-
-@media screen and (max-width: 1080px) {
-    .HeaderMenuHamburger__line:last-child {
-        top: 100%;
     }
 }
 
